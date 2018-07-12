@@ -1,0 +1,22 @@
+CREATE TABLE concert(
+	num INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	id VARCHAR(20) NOT NULL,
+	name VARCHAR(20) NOT NULL,
+	nick VARCHAR(20) NOT NULL,
+	subject VARCHAR(80) NOT NULL,
+	content TEXT NOT NULL,
+	regist_day DATETIME,
+	hit INT,
+	is_html CHAR(1),
+	file_name_0 VARCHAR(40),
+	file_name_1 VARCHAR(40),
+	file_name_2 VARCHAR(40),
+	file_name_3 VARCHAR(40),
+	file_name_4 VARCHAR(40),
+	file_copied_0 VARCHAR(30),
+	file_copied_1 VARCHAR(30),
+	file_copied_2 VARCHAR(30),
+	file_copied_3 VARCHAR(30),
+	file_copied_4 VARCHAR(30),
+	
+);
